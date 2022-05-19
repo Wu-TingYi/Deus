@@ -20,9 +20,8 @@
   Trace Debug顯示圖示
 </p>
 
-![5-1](https://user-images.githubusercontent.com/92261914/169336873-34960c1f-39d7-4627-9c9c-7184295c890a.png)
 <p align="center">
-    SphereTrace做射線追蹤判斷Pawn(敵人)和(Destructible)場景破壞物
+  <img width="1205" height="425" src="https://user-images.githubusercontent.com/92261914/169336873-34960c1f-39d7-4627-9c9c-7184295c890a.png">
 </p>
 
 - ## 模型打擊抖動
