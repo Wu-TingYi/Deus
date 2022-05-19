@@ -20,14 +20,14 @@
   Trace Debug顯示圖示
 </p>
 
-![5-1](https://user-images.githubusercontent.com/92261914/169296830-c8029e98-ecc6-4237-b7e5-c9583301147e.png)
+![5-1](https://user-images.githubusercontent.com/92261914/169336873-34960c1f-39d7-4627-9c9c-7184295c890a.png)
 <p align="center">
     SphereTrace做射線追蹤判斷Pawn(敵人)和(Destructible)場景破壞物
 </p>
 
 - ## 模型打擊抖動
       玩家攻擊射線得到Physical Material(對應Boss在Physical Asset中設定的Physical Material)來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
-![11](https://user-images.githubusercontent.com/92261914/169335998-aa38b592-3235-4b82-a0be-a466949c51ab.png)
+![11](https://user-images.githubusercontent.com/92261914/169337069-84080e45-7693-4807-8969-4a3a9f92c730.png)
 ![3](https://user-images.githubusercontent.com/92261914/169292229-11c1729b-0556-4936-9c8a-67fe6a6a622a.png)
  - **Transform(Modify)**:
    主要控制模型骨架的偏移
