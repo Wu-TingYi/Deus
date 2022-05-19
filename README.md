@@ -15,7 +15,7 @@
     Trace Debug顯示圖示
 </p>
 
-![5](https://user-images.githubusercontent.com/92261914/169289864-ac4e05c8-da9a-45b3-a51d-6d89d9e7ffa9.png)
+![5-1](https://user-images.githubusercontent.com/92261914/169296830-c8029e98-ecc6-4237-b7e5-c9583301147e.png)
 <p align="center">
     SphereTrace做射線追蹤判斷Pawn(敵人)和(Destructible)場景破壞物
 </p>
@@ -35,12 +35,12 @@
 ## AI
 ### 行為樹
 
-![7](https://user-images.githubusercontent.com/92261914/169292456-5c9a8f12-257b-42f6-8722-9a40481052c0.png)
+![7](https://user-images.githubusercontent.com/92261914/169297080-c695cf94-cebc-46a5-b7d9-7039abef5ffc.png)
 <p align="center">
     Boss行為邏輯
 </p>
 
-![8](https://user-images.githubusercontent.com/92261914/169292713-3e938004-598d-41c5-8f2c-0df6440c5b80.png)
+![8](https://user-images.githubusercontent.com/92261914/169297260-fca2d295-48fc-4199-aa7e-dd8c25edb47d.png)
 <p align="center">
     小怪行為邏輯
 </p>
