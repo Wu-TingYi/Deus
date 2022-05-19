@@ -26,6 +26,7 @@
 </p>
 
 ### 模型打擊斗動
+    根據Boss在Physical Asset中設定的Physical Material與玩家攻擊射線得到PhysicalMaterial來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
 ![11](https://user-images.githubusercontent.com/92261914/169312292-f9c6a6e4-0725-4261-b65e-b491569f7628.png)
 ![3](https://user-images.githubusercontent.com/92261914/169292229-11c1729b-0556-4936-9c8a-67fe6a6a622a.png)
  - **Transform(Modify)**:
@@ -33,7 +34,6 @@
  - **Apply a Percentage of Rotation**:
    連帶選定的骨頭位置做一定程度的連帶位移
 ![12](https://user-images.githubusercontent.com/92261914/169313210-52abd141-72a8-473c-a5e1-0bc0e3e48950.png)
-根據Boss在Physical Asset中設定的Physical Material與玩家攻擊射線得到PhysicalMaterial來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
 ![2022-05-19_22-33-45_AdobeCreativeCloudExpress10](https://user-images.githubusercontent.com/92261914/169323349-9552c2f9-4db2-41a2-a0e1-48377d74ade9.gif)
 <p align="center">
     實際演示效果
