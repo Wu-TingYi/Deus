@@ -20,12 +20,10 @@
   Trace Debug顯示圖示
 </p>
 
-<p align="center">
-  <img width="1205" height="425" src="https://user-images.githubusercontent.com/92261914/169336873-34960c1f-39d7-4627-9c9c-7184295c890a.png">
-</p>
+![5-1](https://user-images.githubusercontent.com/92261914/169530232-0b18fb79-4542-474b-ac9e-5c19fd82c763.png)
 
 - ## 模型打擊抖動
-      玩家攻擊射線得到Physical Material(對應Boss在Physical Asset中設定的Physical Material)來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
+  - 玩家攻擊射線得到Physical Material(對應Boss在Physical Asset中設定的Physical Material)來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
 ![11](https://user-images.githubusercontent.com/92261914/169337069-84080e45-7693-4807-8969-4a3a9f92c730.png)
 ![3](https://user-images.githubusercontent.com/92261914/169292229-11c1729b-0556-4936-9c8a-67fe6a6a622a.png)
  - **Transform(Modify)**:
@@ -39,7 +37,23 @@
 </p>
 
 
-## AI
+## 敵人
+![class drawio](https://user-images.githubusercontent.com/92261914/169532363-04c49354-ff19-42d0-922c-7460a738fa2b.png)
+ - 敵人Base
+   - 主要負責敵人共同持有的能力和數值
+      - Property : 血量、狀態、護甲、傷害
+      - Fuction : 鎖定玩家、攻擊Trace追蹤、造成傷害
+
+ - Boss
+    - Boss才有的設定 - 受傷後累積的耐力值、二階段生成的小怪、受擊後Bone位移
+      - Property : 耐力值、最大耐力值、生成方塊Actor
+      - Function : 骨骼位移、創建方塊、摧毀方塊
+
+ - 小怪
+    - 小怪有定點巡邏的功能
+      - Property : 巡邏位置(TargetPoint)、巡邏點Index、發現的Actor
+      - Function : 掉落道具
+
 ## 行為樹
  - ### Boss
 ![7](https://user-images.githubusercontent.com/92261914/169297080-c695cf94-cebc-46a5-b7d9-7039abef5ffc.png)
