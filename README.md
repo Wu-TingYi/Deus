@@ -24,7 +24,7 @@
 
 - ## 模型打擊抖動
   - 玩家攻擊射線得到Physical Material(對應Boss在Physical Asset中設定的Physical Material)來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
-![11](https://user-images.githubusercontent.com/92261914/169337069-84080e45-7693-4807-8969-4a3a9f92c730.png)
+![未命名1](https://user-images.githubusercontent.com/92261914/169542636-ee4a7d94-7512-468c-a199-3875fe2ab670.png)
 ![3](https://user-images.githubusercontent.com/92261914/169292229-11c1729b-0556-4936-9c8a-67fe6a6a622a.png)
  - **Transform(Modify)**:
    主要控制模型骨架的偏移
