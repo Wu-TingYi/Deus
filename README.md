@@ -1,9 +1,17 @@
 # 探勘者:人工意識
  - #### 專案簡介
+ - #### 遊玩影片
  - #### 核心系統
+    - 戰鬥
+    - 模型打擊抖動
+    - 實際效果
+    - 敵人
 
 ## 專案簡介
-    一款使用Unreal Engine4製作的第三人稱類魂遊戲，大多功能以藍圖完成，少部分用到C++，Ex:Loading介面
+    以黑暗靈魂為參考製作的一款第三人稱動作遊戲，遊戲引擎使用Unreal Engine4，遊戲大多功能以藍圖完成，少部分用到C++，Ex:Loading介面
+## 遊玩影片
+https://user-images.githubusercontent.com/92261914/169557596-6524e965-6634-42de-8069-d82631a35ded.mp4
+
 ## 核心系統 
 ## 戰鬥
 
@@ -63,4 +71,3 @@
 
  - ### 小怪
 ![8](https://user-images.githubusercontent.com/92261914/169297260-fca2d295-48fc-4199-aa7e-dd8c25edb47d.png)
-
