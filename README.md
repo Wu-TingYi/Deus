@@ -20,7 +20,7 @@
   Trace Debug顯示圖示
 </p>
 
-![未命名](https://user-images.githubusercontent.com/92261914/169541840-1bf8d735-2540-49f1-b23b-ff5bb952c55b.png)
+![未命名](https://user-images.githubusercontent.com/92261914/169542035-527c1a80-70d3-43d3-b437-40f7337b693f.png)
 
 - ## 模型打擊抖動
   - 玩家攻擊射線得到Physical Material(對應Boss在Physical Asset中設定的Physical Material)來判斷出擊中哪一個部位，來播放該部位的CachedPose(以實作過Transform Bone)
